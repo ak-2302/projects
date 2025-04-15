@@ -1,0 +1,18 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.5",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Current Time",
+            "weight": "Bolder",
+            "size": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "12:34 PM",
+            "id": "timeText",
+            "size": "ExtraLarge"
+        }
+    ]
+}

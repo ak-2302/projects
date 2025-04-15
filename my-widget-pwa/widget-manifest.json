@@ -1,0 +1,16 @@
+{
+    "manifestVersion": 1,
+    "defaultLocale": "en-US",
+    "description": "A simple clock widget",
+    "startUrl": "/my-widget-pwa/index.html",
+    "scope": "/my-widget-pwa/",
+    "widgets": [
+        {
+            "id": "clockWidget",
+            "displayName": "Clock",
+            "description": "Shows the current time",
+            "card": "/my-widget-pwa/adaptive-card.json",
+            "dataRefreshIntervalInSeconds": 60
+        }
+    ]
+}
